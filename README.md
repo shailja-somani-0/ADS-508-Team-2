@@ -1,5 +1,7 @@
-# ADS-508 Team Project
-# Health Equity Analytics: Enhancing Healthcare Crisis Response
+# ADS-508 Team Project: Health Equity Analytics: Enhancing Healthcare Crisis Response
+Team Members: Shailja Somani, John Vincent Deniega, & Muris Saab\
+Spring 2024\
+University of San Diego
 
 ## Overview
 
@@ -36,21 +38,16 @@ Our analysis leverages four primary datasets and a crosswalk for ZIP code and ZT
 
 The project encompasses data preparation, exploratory data analysis, model training, and implementation for real-world application. We utilized AWS SageMaker for model development and training, focusing on creating a regression model optimized for minimizing RMSE.
 
+For the model training, the team used the 12xlarge instance on SageMaker Canvas to train a regression model optimized for root mean square error (RMSE), suitable for addressing the critical nature of COVID-19 reporting errors. Using built-in algorithms and 52 selected parameters from a dataset featuring continuous non-nominal numeric values, the model training involved multiple candidate algorithms like Linear Learner and kNN, and an ensemble method combining eight different algorithms for enhanced predictive accuracy. The final model, which demonstrated high predictive accuracy with a .47 standard deviation in testing and a rapid .10 second inference latency, utilized important features such as population and mobility statistics from specific zip codes to optimize for RMSE.
+
 ## Recommendations
 
 Based on our findings, we recommend prioritizing resource allocation to zip codes identified as high-risk due to socioeconomic disparities. Implementing our model's predictions will enable a more responsive and equitable healthcare crisis management approach.
-
-## Repository Structure
-
-- `data/`: Contains datasets used for analysis.
-- `notebooks/`: Jupyter notebooks detailing our data analysis and modeling process.
-- `src/`: Source code for data preprocessing, modeling, and analysis.
-- `design`: Design Documentation **(assuming the final design doc goes in this folder)**
 
 ## Getting Started
 
 To replicate our analysis or explore the datasets:
 
-1. Clone the repository.
-2. Navigate to the `notebooks/` directory to find Jupyter notebooks with detailed analysis steps.
-3. Data used in the analysis is stored in the `data/` directory.
+1. Clone the repository
+2. Run the [team2-ads508.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/team2-ads508.ipynb) notebook
+3. Run the [SageMakerAutopilotCandidateDefinitionNotebook.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/SageMakerAutopilotCandidateDefinitionNotebook.ipynb) notebook
