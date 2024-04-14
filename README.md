@@ -25,7 +25,7 @@ Traditional methods of allocating medical resources based solely on population o
 
 ## Data Sources
 
-Our analysis leverages four primary datasets and a crosswalk for ZIP code and ZTCA conversion:
+Our analysis leverages three feature datasets, a target variable dataset, and a crosswalk for ZIP code to ZTCA conversion:
 
 1. [Maryland COVID-19 Cases by Zip Code](https://opendata.maryland.gov/Health-and-Human-Services/MD-COVID-19-Cases-by-ZIP-Code/ntd2-dqpx/about_data)
 2. [Social Determinants of Health Database](https://www.ahrq.gov/sdoh/data-analytics/sdoh-data.html#download)
@@ -49,5 +49,5 @@ Based on our findings, we recommend prioritizing resource allocation to zip code
 To replicate our analysis or explore the datasets:
 
 1. Clone the repository
-2. Run the [team2-ads508.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/team2-ads508.ipynb) notebook
-3. Run the [SageMakerAutopilotCandidateDefinitionNotebook.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/SageMakerAutopilotCandidateDefinitionNotebook.ipynb) notebook
+2. From within an AWS Sagemaker notebook, run the [team2-ads508.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/team2-ads508.ipynb) notebook
+3. From within AWS Canvas (in the same domain as the notebook in #2), run the [SageMakerAutopilotCandidateDefinitionNotebook.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/SageMakerAutopilotCandidateDefinitionNotebook.ipynb) notebook
