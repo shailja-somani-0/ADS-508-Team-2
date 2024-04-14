@@ -38,7 +38,7 @@ Our analysis leverages three feature datasets, a target variable dataset, and a 
 
 The project encompasses data preparation, exploratory data analysis, model training, and implementation for real-world application. We utilized AWS SageMaker for model development and training, focusing on creating a regression model optimized for minimizing RMSE.
 
-For the model training, the team used the 12xlarge instance on SageMaker Canvas to train a regression model optimized for root mean square error (RMSE), suitable for addressing the critical nature of COVID-19 reporting errors. Using built-in algorithms and 52 selected parameters from a dataset featuring continuous non-nominal numeric values, the model training involved multiple candidate algorithms like Linear Learner and kNN, and an ensemble method combining eight different algorithms for enhanced predictive accuracy. The final model, which demonstrated high predictive accuracy with a .47 standard deviation in testing and a rapid .10 second inference latency, utilized important features such as population and mobility statistics from specific zip codes to optimize for RMSE.
+For the model training, the team used the 12xlarge instance on SageMaker Canvas DataWrangler to train a regression model optimized for root mean square error (RMSE), suitable for addressing the critical nature of COVID-19 reporting errors. Using built-in algorithms and 52 selected parameters from a dataset featuring continuous non-nominal numeric values, the model training involved multiple candidate algorithms like Linear Learner and kNN, and an ensemble method combining eight different algorithms for enhanced predictive accuracy. The final model, which demonstrated high predictive accuracy with a .47 standard deviation in testing and a rapid .10 second inference latency, utilized important features such as population and mobility statistics from specific zip codes to optimize for RMSE. The results of the DataWrangler AutoML standard model build, specifically (a) top models of those built, (b) full model metrics for best model, and (c) top features for the best model are available in the [DataWrangler_AutoML_Results folder](https://github.com/shailja-somani-0/ADS-508-Team-2/tree/main/DataWrangler_AutoML_Results). 
 
 ## Recommendations
 
@@ -49,5 +49,5 @@ Based on our findings, we recommend prioritizing resource allocation to zip code
 To replicate our analysis or explore the datasets:
 
 1. Clone the repository
-2. From within an AWS Sagemaker notebook, run the [team2-ads508.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/team2-ads508.ipynb) notebook
-3. From within AWS Canvas (in the same domain as the notebook in #2), run the [SageMakerAutopilotCandidateDefinitionNotebook.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/SageMakerAutopilotCandidateDefinitionNotebook.ipynb) notebook
+2. From within an AWS Sagemaker notebook, run the [team2-ads508-data_prep.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/team2-ads508.ipynb) notebook
+3. From within AWS Canvas (in the same domain as the notebook in #2), run the [SageMaker_DataWrangler_AutopilotNotebook.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/SageMakerAutopilotCandidateDefinitionNotebook.ipynb) notebook
