@@ -49,5 +49,5 @@ Based on our findings, we recommend prioritizing resource allocation to zip code
 To replicate our analysis or explore the datasets:
 
 1. Clone the repository
-2. From within an AWS Sagemaker notebook, run the [team2-ads508-data_prep.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/team2-ads508.ipynb) notebook
-3. From within AWS Canvas (in the same domain as the notebook in #2), run the [SageMaker_DataWrangler_AutopilotNotebook.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/SageMakerAutopilotCandidateDefinitionNotebook.ipynb) notebook
+2. From within an AWS Sagemaker notebook, run the [team2-ads508-data_prep.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/team2-ads508-data_prep.ipynb) notebook
+3. From within AWS Canvas (in the same domain as the notebook in #2), run the [SageMaker_DataWrangler_AutopilotNotebook.ipynb](https://github.com/shailja-somani-0/ADS-508-Team-2/blob/main/SageMaker_DataWrangler_AutopilotNotebook.ipynb) notebook
